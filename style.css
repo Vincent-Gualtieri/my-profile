@@ -1,0 +1,194 @@
+/* colors and fonts */
+
+body {
+  background: rgb(177,156,230);
+  color: black;
+  font-family: times new roman;
+  font-size:20px;}
+
+h1,h2,h3{
+  font-family: Helvetica;
+}
+h1:hover{
+  color: yellow
+}
+h2:hover{
+  color: yellow
+}
+h3:hover{
+  color: yellow
+}
+a:hover{
+  color: yellow;
+  text-decoration: none;
+}
+
+
+p {
+  color: yellow;
+  font-style:italic;
+}
+p:hover{
+  color: black
+}
+li:hover{
+  color: yellow
+}
+
+* {
+  margin: 0;
+  padding:0;
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  text-align:center;
+}
+.banner {
+  border-color: black;
+  margin: 12px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 5px 5px 10px;
+  padding: 24px;
+}
+.banner {
+  background-color:rgb(50,170,240)
+}
+.banner:hover{background-color: rgb(177,156,230);
+}
+
+.banner h1 {
+  font-family: arial;
+
+}
+
+.banner-img {
+  width: 100%;
+}
+.banner h2 {
+  margin-bottom: 5px
+}
+
+.banner img {
+ width: 50%;
+ height: auto;
+ border-radius: 50%
+}
+.banner p {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+
+.section {
+  margin: 12px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 5px 5px 10px;
+  padding: 24px;
+}
+.section-welcome {
+  background-color:rgb(177,156,230)
+}
+.section-welcome:hover {
+  background-color: rgb(50,170,240);
+}
+.section-interests ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-interests {
+  background-color: rgb(50,170,240);
+}
+.section-interests h2{
+  margin-bottom: 10px
+}
+.section-interests:hover{
+  background-color: rgb(177,156,230);
+}
+.section-jayz{
+  background-color: rgb(177,156,230);
+}
+.section-jayz:hover{
+  background-color: rgb(50,170,240);
+}
+.footer {
+  margin: 12px;
+  box-shadow: 5px 5px 10px;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.footer ul a {
+  padding: 10px;
+}
+.footer{
+  background-color: rgb(50,170,240);
+}
+.footer:hover{
+  background-color: rgb(177,156,230);
+}
+.fa-dollar-sign{
+  color: yellow
+}
+.fa-dollar-sign:hover{
+  color: black
+}
